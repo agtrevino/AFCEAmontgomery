@@ -8,6 +8,10 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { UpcomingCoursesComponent } from './upcoming-courses/upcoming-courses.component';
+import { CorporateTrainingComponent } from './corporate-training/corporate-training.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,14 @@ import { UpcomingCoursesComponent } from './upcoming-courses/upcoming-courses.co
     MainNavComponent,
     HeaderComponent,
     FooterComponent,
-    UpcomingCoursesComponent
+    UpcomingCoursesComponent,
+    CorporateTrainingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

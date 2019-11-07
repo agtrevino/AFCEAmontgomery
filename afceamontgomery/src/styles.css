@@ -35,7 +35,7 @@
   .get-started-btn {
       margin-top: 20px;
     color: #fff;
-    border: 3px solid #fff;
+    border: 3px solid rgba(255, 255, 255, 0.7);
     background: rgba(54, 149, 210, 0.5);
     border-radius: 40px;
     height: 75px;
@@ -46,7 +46,7 @@
 
   .get-started-btn:hover {
     color: #fff;
-    border: 3px solid #f26d6f;
+    border: 3px solid #fff;
     background: rgba(54, 149, 210, 1);
     transition: 300ms;
 
@@ -82,6 +82,7 @@
   .nav-link {
     color: rgba(78, 78, 79, .8) !important;
     letter-spacing: 3px;
+    font-size: 14px;
     padding-bottom: 15px;
     border-bottom: 3px solid transparent;
     transition: 400ms ease;
@@ -89,12 +90,12 @@
   
   .nav-link:hover {
     color: #4e4e4f !important;
-    border-bottom: 3px solid #3695d2;
+    border-bottom: 3px solid #f26d6f;
     transition: 400ms ease;
   }
   
   .nav-item {
-    margin: 0 25px;
+    margin: 0 20px;
   }
 
   .part-2 {
@@ -142,8 +143,8 @@
     background: #fff;
     text-align: left;
     margin-top: 45px !important;
-    border: 1px solid rgba(51, 51, 51, 0.2);
-    padding: 25px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    padding: 25px 0px 0px 0px;
     border-radius: 6px;
   }
 
@@ -164,6 +165,7 @@
   }
   .card-btn-2 {
     margin-top: 20px;
+    margin-bottom: 20px;
     color: #fff;
     border: 3px solid #f26d6f;
     background: #f26d6f;
@@ -224,3 +226,32 @@
        .course-row h5 {
         margin-bottom: 40px;
        }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-expansion-panel-header-description {
+  flex-grow: 1 !important;
+}
+
+.corporate-training-bg-img {
+  background-image: linear-gradient(to right, 
+    rgb(51, 51, 51, 0.7), 
+    rgb(51, 51, 51, 0.7)), 
+    url("assets/img/backgrounds/Website_agileManifesto.jpg");
+    min-height: calc(100vh - 154px) !important;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-started-segment {
+  padding: 4% 0;
+  background: #3695d2;
+  color: #fff;
+}
+
+.get-started-icons {
+  height: 25px; 
+}
