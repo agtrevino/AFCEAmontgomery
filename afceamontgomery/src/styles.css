@@ -118,3 +118,109 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  .part-3 h3, h1 {
+      color: #3695d2;
+  }
+
+  .upcoming-courses h1 {
+    text-align: center;
+    margin-top: 35px !important;
+    color: #3695d2;
+  }
+
+  .upcoming-courses {
+    min-height: 100vh;
+    color: #4e4e4f;
+    background: #f8f8f8;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 55px !important;
+  }
+
+  .card-container {
+    background: #fff;
+    text-align: left;
+    margin-top: 45px !important;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    padding: 25px;
+    border-radius: 6px;
+  }
+
+  .card-left {
+    text-align: center;
+  }
+
+  .card-btn-1 {
+    margin-top: 20px;
+    color: #fff;
+    border: 3px solid #3695d2;
+    background: rgba(54, 149, 210, 1);
+    border-radius: 40px;
+    height: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    transition: 300ms;
+  }
+  .card-btn-2 {
+    margin-top: 20px;
+    color: #fff;
+    border: 3px solid #f26d6f;
+    background: #f26d6f;
+    border-radius: 40px;
+    height: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    transition: 300ms;
+  }
+
+  .card-btn-1:hover {
+    background: transparent;
+    border: solid 3px #3695d2;
+    color: #3695d2;
+    transition: 300ms;
+  }
+  .card-btn-2:hover {
+    background: transparent;
+    border: solid 3px #f26d6f;
+    color: #f26d6f;
+    transition: 300ms;
+  }
+  
+  .card-list     	     {
+		list-style: none;
+       }
+       ul li {
+         margin-bottom: 15px;
+       }
+
+.card-list li:before {
+		content: "\2192 \0020";
+       }
+       
+       .schedule {
+         color: #fff;
+         text-align: center;
+         background: #3695d2;
+         padding: 40px 10%;
+         padding-bottom: 70px !important;
+         margin-top: 45px;
+         padding-bottom: 45px;
+       }
+
+       .subscribe-btn {
+         width: 100%;
+         border-radius: 6px;
+         background: #f26d6f;
+         border: 2px solid #f26d6f;
+         height: 100%;
+         color: #fff;
+       }
+
+       .course-row img {
+         margin-bottom: 25px;
+       }
+
+       .course-row h5 {
+        margin-bottom: 40px;
+       }
