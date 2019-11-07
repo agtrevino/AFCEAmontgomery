@@ -255,3 +255,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .get-started-icons {
   height: 25px; 
 }
+
+.data-square-1 {
+  width: 100%;
+  min-height: 150px;
+  padding: 20px;
+  background: #4e4e4f;
+  color: #fff;
+  border-radius: 6px;
+  height: auto;
+}
+
+.data-square-2 {
+  width: 100%;
+  min-height: 150px;
+  padding: 20px;
+  background:#3695d2;
+  color: #fff;
+  border-radius: 6px;
+  height: auto;
+}
