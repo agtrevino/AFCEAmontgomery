@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatExpansionModule } from '@angular/material/expansion';
 import { AgileManifestoComponent } from './agile-manifesto/agile-manifesto.component';
+import { MeetTheInstructorsComponent } from './meet-the-instructors/meet-the-instructors.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { AgileManifestoComponent } from './agile-manifesto/agile-manifesto.compo
     FooterComponent,
     UpcomingCoursesComponent,
     CorporateTrainingComponent,
-    AgileManifestoComponent
+    AgileManifestoComponent,
+    MeetTheInstructorsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

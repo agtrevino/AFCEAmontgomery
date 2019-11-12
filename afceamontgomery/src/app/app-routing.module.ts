@@ -4,6 +4,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { UpcomingCoursesComponent } from './upcoming-courses/upcoming-courses.component';
 import { CorporateTrainingComponent } from './corporate-training/corporate-training.component';
 import { AgileManifestoComponent } from './agile-manifesto/agile-manifesto.component';
+import { MeetTheInstructorsComponent } from './meet-the-instructors/meet-the-instructors.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'the-agile-manifesto',
     component: AgileManifestoComponent
+  },
+  {
+    path: 'meet-the-instructors',
+    component: MeetTheInstructorsComponent
+  },
+  {
+    path: 'contact-us',
+    component: ContactUsComponent
   }
 ];
 
