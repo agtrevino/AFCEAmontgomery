@@ -12,6 +12,7 @@ import { CorporateTrainingComponent } from './corporate-training/corporate-train
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatExpansionModule } from '@angular/material/expansion';
+import { AgileManifestoComponent } from './agile-manifesto/agile-manifesto.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     HeaderComponent,
     FooterComponent,
     UpcomingCoursesComponent,
-    CorporateTrainingComponent
+    CorporateTrainingComponent,
+    AgileManifestoComponent
   ],
   imports: [
     BrowserModule,

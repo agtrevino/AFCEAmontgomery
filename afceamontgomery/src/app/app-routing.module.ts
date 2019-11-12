@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { UpcomingCoursesComponent } from './upcoming-courses/upcoming-courses.component';
 import { CorporateTrainingComponent } from './corporate-training/corporate-training.component';
+import { AgileManifestoComponent } from './agile-manifesto/agile-manifesto.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'corporate-training',
     component: CorporateTrainingComponent
+  },
+  {
+    path: 'the-agile-manifesto',
+    component: AgileManifestoComponent
   }
 ];
 

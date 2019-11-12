@@ -72,7 +72,7 @@
     display: block;
     text-align: center;
   }
-  
+  /*  
   .navbar-nav > li {
     color: #4e4e4f !important;
     display: inline-block;
@@ -92,11 +92,51 @@
     color: #4e4e4f !important;
     border-bottom: 3px solid #f26d6f;
     transition: 400ms ease;
-  }
+  } */
   
   .nav-item {
     margin: 0 20px;
   }
+
+  .navbar-nav > li {
+    color: #FEFEFE !important;
+    display: inline-block;
+    float:none;
+  }
+  
+  .nav-link {
+    color: #747474 !important;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid transparent;
+    transition: 400ms ease;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #3695d2;
+    transition: width .4s;
+    margin-top: 6px;
+  }
+  
+  .nav-link:hover {
+    color: #4e4e4f !important;
+    transition: 400ms ease;
+  }
+
+  .nav-link:hover:after {
+    width: 100%;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+
 
   .part-2 {
       background: #4e4e4f;
