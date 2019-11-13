@@ -448,6 +448,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin-bottom: 10px;
 }
 
+.content-title {
+  /* font-size: 14px; */
+  color: #fefefe;
+}
+
 .content {
   position: relative;
   width: 100%;
