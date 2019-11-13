@@ -1,5 +1,24 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../afceamontgomery/src/assets/fonts/open-sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../afceamontgomery/src/assets/fonts/raleway/Raleway-Medium.ttf');
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 .row {
     margin: 0 !important;
 }
@@ -10,6 +29,19 @@
     rgb(51, 51, 51, .8)), 
     url("assets/img/backgrounds/AFCEA_1.jpg");
     min-height: calc(100vh - 154px) !important;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home-bg-img-2 {
+    background-image: linear-gradient(to right, 
+    rgb(51, 51, 51, .8), 
+    rgb(51, 51, 51, .8)), 
+    url("assets/img/backgrounds/AFCEA_1.jpg");
+    height: calc(85vh - 154px) !important;
   
     background-attachment: fixed;
     background-position: center;
@@ -309,6 +341,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   height: 25px; 
 }
 
+.contact-icons {
+  width: 60%;
+  position: absolute;
+  right: 10px;
+  padding-top: 10px;
+}
 .data-square-1 {
   width: 100%;
   min-height: 150px;
@@ -492,10 +530,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fadeIn-right{
   left: 80%;
-}
-
-body{
-  background: #f9f9f9;
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
 }
